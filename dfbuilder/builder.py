@@ -61,8 +61,8 @@ def compute_x_features(data:pd.DataFrame, append:bool=False, features:tuple=[]):
                 #print('#####', i, type(v))
                 out[label+'_'+str(i)] = v
         
-
     return out
+
 
 def inline_x_data(_data:pd.DataFrame, lookback:int, train:bool=True, ylabel:str='y', dropna:bool=False):
     data = _data.copy()

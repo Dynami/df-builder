@@ -39,14 +39,15 @@ class AROON(Feature):
 
 
 data = compute_x_features(data, append=False, features=[
-    Field('Close', 'feat_1'),
+    #Field('Close', 'feat_1'),
     SMA('Sma', 'feat_2', period=5),
+    SMA('Sma', 'feat_4', period=15),
     AROON('Aroon', 'feat_3', period=5),
     Field('y')
 ])
 
 
-data = inline_x_data(data.iloc[:20, :], lookback=3, train=True, dropna=True)
+data = inline_x_data(data.iloc[:30, :], lookback=3, train=True, dropna=True)
 
 
 print(data.head(10))
