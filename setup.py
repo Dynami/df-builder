@@ -11,9 +11,9 @@ setuptools.setup(
     description="DataFrame builder for financial time series data",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/Dynami/df-builder",
     project_urls={
-        "Bug Tracker": "https://github.com/pypa/sampleproject/issues",
+        "Bug Tracker": "https://github.com/Dynami/df-builder/issues",
     },
     license="MIT",
     classifiers=[
