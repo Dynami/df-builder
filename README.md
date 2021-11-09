@@ -4,5 +4,5 @@ df-builder is a small package to build progressively stacked dataframe suitable 
 To install locally in development mode:
 1. clone git repo
 2. cd df-builder
-3. pip install -e .
+3. pip install -e.
 
